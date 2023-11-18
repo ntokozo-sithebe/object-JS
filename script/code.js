@@ -296,10 +296,35 @@ console.log(test(2,8))*/
 
 // ANOTHER METHOD
 
-(function(numb1, numb2){ 
+/*(function(numb1, numb2){ 
     console.log(numb1 + numb2)
 
+}) (3, 4)    // added them together*/
+
+
+/*function repeat(limit) {
+    let cnt = 0
+    if(cnt < limit) {
+    console.log(cnt);
+    cnt++
+   // repeat(limit--)
+    }
+    }
+    repeat(10)*/
+
+    function repeat(limit) {
+        let cnt = 0
+        if(cnt < limit) {
+        console.log(cnt);
+        cnt++
+       // repeat(limit--)
+        }
+        }
+        repeat(10)
+(function(numb1, numb2){ 
+    console.log(numb1 + numb2)
 }) (3, 4)
+
    
 
 

@@ -321,7 +321,10 @@ console.log(test(2,8))*/
         }
         }
         repeat(10)
-       
+(function(numb1, numb2){ 
+    console.log(numb1 + numb2)
+}) (3, 4)
+
    
 
 
